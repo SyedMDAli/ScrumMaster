@@ -1,0 +1,116 @@
+
+
+                .leftcol{ float:left }
+                .topMAr{margin-top: 5px;}
+                html, body {
+                    height: 100%;
+                    min-height: 100%;
+                }
+                .wrapper {
+                    text-align: center;
+                }
+                .wrapper1 {
+                    text-align: right;
+                }
+                .button {
+                    position: absolute;
+                    top: 50%;
+                }
+                .menu12
+                {
+                    border-left: 1px solid #B0C4DE;
+                    border-right: 1px solid #B0C4DE;
+                }
+                .horLine
+                {
+                    border-top: 1px solid #87CEFA;
+                }
+                .ulBullet
+                {
+                  list-style-type: none;
+                  padding:0;
+                  margin:0;
+                }
+                .glow {
+                text-shadow:-1px 0px 20px #0a008f;
+                color:white;
+                }
+                
+                
+                
+                
+                
+.blue {
+    color: blue;
+}
+
+  p {font-style: italic}
+
+.divBox {
+    width:10em;
+    height:10em;
+    
+    overflow:hidden;
+    
+    box-shadow:4px 4px 8px #1c1c1c;
+    -webkit-box-shadow:4px 4px 8px #1c1c1c;
+    -moz-box-shadow:4px 4px 8px #1c1c1c;
+    -o-box-shadow:4px 4px 8px #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.divBoxForUserStory{
+    width:8em;
+    height:8em;
+    
+    overflow:hidden;
+    
+    box-shadow:4px 4px 8px #1c1c1c;
+    -webkit-box-shadow:4px 4px 8px #1c1c1c;
+    -moz-box-shadow:4px 4px 8px #1c1c1c;
+    -o-box-shadow:4px 4px 8px #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.projectBox {
+    overflow:hidden;
+    
+    box-shadow:4px 4px 8px #1c1c1c;
+    -webkit-box-shadow:4px 4px 8px #1c1c1c;
+    -moz-box-shadow:4px 4px 8px #1c1c1c;
+    -o-box-shadow:4px 4px 8px #1c1c1c;
+    
+}
+
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #123d54;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#afd9fa 0%,
+		#588fad);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#afd9fa),
+		to(#588fad));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #003366;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+                

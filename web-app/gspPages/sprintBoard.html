@@ -1,0 +1,414 @@
+<div style="margin-top:0.8%;margin-right: 0.9%" align="right">    
+        <div><button data-toggle="modal" href="#myModalForCreateSprint" class="css3button" class="btn btn-primary btn-lg">+ Create Sprint &nbsp;</button>&nbsp;
+        <button data-toggle="modal" href="#myModalForUserStory" class="css3button" class="btn btn-primary btn-lg">+ Create UserStory</button>&nbsp;
+        <button data-toggle="modal" href="#myModalForTask" class="css3button" class="btn btn-primary btn-lg">&nbsp;+ Create Task&nbsp;</button></div> 
+</div>
+    <div class="col-md-1" style="margin-top:5.3%;margin-left:0%">
+
+    </div>
+    <div class="col-md-7" class="body-boder projectBox" style="margin-top:1.8%;margin-left:0%;background: #3B5998">
+        <form>
+            <h4 align="center"><font style="color: white" ><b>Project : </b>{{projectNAME}}</font> </h4>
+            <h4 align="center"><font style="color: white" ><b>Sprint for Release : </b>{{releaseNAME}}</font> </h4>
+
+
+            <div align='center' class="body-boder projectBox" style="background: repeating-radial-gradient">   
+                <div ng-init ="fetchCreatedProject()"></div>
+                <div ng-init ="fetchCreatedSprints()"></div>
+                <div  class="col-md-12" style="margin-bottom: 20%;">
+
+
+
+                    <div ng-repeat="data in ArrayColor1" class="col-md-3">
+                        <br><br>
+
+                        <div class="divBox" style="background: #CCE5FF">
+
+                            <div align="left" style="color: black"><a data-toggle="modal" href="#myModalForUpdateSprint" title="Update" ng-click="FetchDataForUpdateSprint(data.id,data.name,data.desc,data.startDate,data.endDate)"><span align="right" class="glyphicon glyphicon-edit blue"></span></a></div>
+                            <div class="content" style="color: black"><b><a href="#/taskBoard/{{data.id}}/{{data.name}}/{{releaseID}}/{{releaseNAME}}/{{projectID}}/{{projectNAME}}">{{data.name}}</a></b></div>
+                            <div class="content" style="color: #0000FF">({{data.startDate}})</div> -
+                            <div class="content" style="color: #0000FF">({{data.endDate}})</div><br>
+
+
+                        </div>
+
+                    </div>  
+                    <div ng-repeat="data in ArrayColor2" class="col-md-3">
+                        <br><br>
+
+                        <div class="divBox" style="background: #FFFF99">
+
+                            <div align="left" style="color: black"><a data-toggle="modal" href="#myModalForUpdateSprint" title="Update" ng-click="FetchDataForUpdateSprint(data.id,data.name,data.desc,data.startDate,data.endDate)"><span align="right" class="glyphicon glyphicon-edit blue"></span></a>  </div>
+                            <div class="content" style="color: black"><b><a href="#/taskBoard/{{data.id}}/{{data.name}}/{{releaseID}}/{{releaseNAME}}/{{projectID}}/{{projectNAME}}">{{data.name}}</a></b></div>
+                            <div class="content" style="color: #0000FF">({{data.startDate}})</div> -
+                            <div class="content" style="color: #0000FF">({{data.endDate}})</div><br>
+
+                        </div>
+
+                    </div>   
+                    <div ng-repeat="data in ArrayColor3" class="col-md-3">
+                        <br><br>
+
+                        <div class="divBox" style="background: #CCFF99">
+
+                            <div align="left" style="color: black"><a data-toggle="modal" href="#myModalForUpdateSprint" title="Update" ng-click="FetchDataForUpdateSprint(data.id,data.name,data.desc,data.startDate,data.endDate)"><span align="right" class="glyphicon glyphicon-edit blue"></span></a></div>
+                            <div class="content" style="color: black"><b><a href="#/taskBoard/{{data.id}}/{{data.name}}/{{releaseID}}/{{releaseNAME}}/{{projectID}}/{{projectNAME}}">{{data.name}}</a></b></div>
+                            <div class="content" style="color: #0000FF">({{data.startDate}})</div> -
+                            <div class="content" style="color: #0000FF">({{data.endDate}})</div><br>
+
+                        </div>
+                        <br><br>
+                    </div> 
+
+                </div>
+            </div>
+
+        </form> 
+        <form>
+            <h4 align="center"><font style="color: white" ><b>Project : </b>{{projectNAME}}</font> </h4>
+            <h4 align="center"><font style="color: white" ><b>UserStorys for Release : </b>{{releaseNAME}}</font> </h4>
+
+
+            <div align='center' class="body-boder projectBox" style="background: repeating-radial-gradient">   
+                <div ng-init ="fetchUserStorysForSpecificRelease()"></div>
+                <div  class="col-md-12" style="margin-bottom: 20%;">
+
+
+                    <div ng-repeat="data in UserStoryforSprint" class="col-md-3">
+                        <br><br>
+
+                        <div class="divBoxForUserStory" style="background: #C0C0C0">
+
+                            <div align="left" style="color: black"><a data-toggle="modal" href="#myModalForUserStoryUpdate" title="Update" ng-click="FetchDataForUpdateUserStory(data.id,data.name,data.desc)"><span align="right" class="glyphicon glyphicon-edit blue"></span></a></div>
+                            <div class="content" style="color: black"><b>{{data.name}}</b></div><br><br>  
+
+
+                        </div>
+
+                    </div>   
+
+                </div>
+            </div>
+
+        </form>  
+    </div>
+    <div class="col-md-1" style="margin-top:5.3%;margin-left:0%">
+
+    </div>
+    <div class="col-md-3" style="margin-top:5.3%;margin-left:0%">
+
+        
+        <div class="body-boder projectBox">
+            <br>
+            <h3 align="center"><font style="font-family: cursive;color: black;font-style: oblique " >My Projects</font></h3><br>
+
+            <div ng-repeat="data in ArrayProject1| startFrom:currentPage*pageSize | limitTo:pageSize"
+"> 
+
+
+                &nbsp;<a href="#/releaseBoard/{{data.id}}/{{data.name}}"><b style="color: #F7819F">{{data.name}}</b></a> ( {{data.startDate}} &nbsp; - &nbsp;{{data.endDate}}) 
+
+            </div> 
+            <div ng-repeat="data in ArrayProject2| startFrom:currentPage*pageSize | limitTo:pageSize"
+">                                                                
+
+                &nbsp;<a href="#/releaseBoard/{{data.id}}/{{data.name}}"><b style="color: #6495ED">{{data.name}}</b></a> ( {{data.startDate}} &nbsp; - &nbsp;{{data.endDate}}) 
+
+
+            </div> 
+            <div ng-repeat="data in ArrayProject3| startFrom:currentPage*pageSize | limitTo:pageSize"
+">                                                                
+
+                &nbsp;<a href="#/releaseBoard/{{data.id}}/{{data.name}}"><b style="color: #C8FE2E">{{data.name}}</b></a> ( {{data.startDate}} &nbsp; - &nbsp;{{data.endDate}}) 
+
+            </div> 
+            <br>
+            <div align="middle">
+<button ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">
+                <<
+               </button>
+             &nbsp;
+              
+            <button ng-disabled="currentPage >= length/pageSize - 1" ng-click="currentPage=currentPage+1">
+               >>
+         </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!-- sprint creation -----------------------------------------------------   -->
+<div class="modal" id="myModalForCreateSprint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><p><center><h4>Create Sprint</h4></center></p></h4>
+            </div>
+
+
+            <div class="modal-body">
+                <!-- form start here -->
+                <form ng-submit="saveSprint()">
+
+                    <input type="text" ng-model="sprintName" class="form-control" placeholder="Sprint Name*"  autofocus required=""><br>
+                    <textarea rows="2" cols="20" ng-model="sprintDescription" class="form-control" placeholder="Description*" required="" >
+                    </textarea><br>
+
+                    <label>Status* </label><br>
+                    <select  ng-model="sprintStatus" class="form-control"  required="">
+                        <option value="Todo">Todo</option>
+                    </select>
+                    <br>
+
+                    <label>Add UserStory* </label><br>
+                    <select size="4" required="" multiple ng-multiple="true" ng-model="selectedUserStorys" ng-options="data.name for data in UserStoryforSprint"></select><br>
+
+                    <br><label>Start Date* </label><br>
+                    <input type ="date" id="startdate" ng-model="sprintStartDate" class="form-control" required=""><br>
+
+                    <label>End Date* </label><br>
+                    <input type ="date" id="enddate" ng-model="sprintEndDate" class="form-control" required="">
+
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary"> Save </button>
+
+                </form>
+                <div flash-alert="success" active-class="in" class="alert fade">
+    <strong class="alert-heading">Error!</strong>
+    <span class="alert-message">{{flash.message}}</span>
+</div> 
+                <!-- form end here -->                         
+            </div>
+
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- userStory creation -----------------------------------------------------   -->
+<div class="modal" id="myModalForUserStory" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><p><center><h4>Create UserStory</h4></center></p></h4>
+            </div>
+
+
+            <div class="modal-body">
+                <!-- form start here -->
+                <form ng-submit="saveUserStory()">
+
+                    <input type="text" ng-model="userStoryName" class="form-control" placeholder="UserStory Name*"  autofocus required=""><br>
+
+                    <textarea rows="8" cols="50" ng-model="userStoryDescription" class="form-control" placeholder="Description*" required="" >
+                    </textarea><br>
+
+
+                    <label>Release</label>
+                    <input type="text" ng-model="releaseName"readonly="true" class="form-control"><br> 
+                    <br>
+
+                    <div ng-init ="fetchSprintsForSpecificRelease()"></div>            
+                    <label>Sprint (optional)</label>
+                    <select ng-model="selectedSprint" class="form-control"  required="" >
+                        <option ng-repeat="items in availableSprint" value="{{items.name}}">{{items.name}}</option>                                     
+                    </select>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary"> Save </button>
+
+                </form>
+                <!-- form end here -->                         
+            </div>
+
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Create Task -->
+<div class="modal" id="myModalForTask" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><p><center><h4>Create Task</h4></center></p></h4>
+            </div>
+            <div class="modal-body">
+                <!-- form start here -->
+                <form ng-submit="saveTask()">
+
+                    <input type="text" ng-model="taskName" class="form-control" placeholder="Task Name*"  autofocus required=""><br>
+
+
+                    <textarea rows="3" cols="30" ng-model="taskDescription" class="form-control" placeholder="Description*" required="" >
+                    </textarea><br>
+                    <label>Status* </label><br>
+                    <select  ng-model="taskStatus" class="form-control"  required="">
+                        <option value="Todo">Todo</option>
+                    </select>
+
+                    <br>
+                     <label>Release</label>
+                     <input type="text" class="form-control" readonly="" value="{{releaseNAME}}">
+                    
+                    <br>
+                    
+                    <label>Sprint*</label> 
+                        <select ng-model="selectedSprint" ng-model-onblur ng-change="fetchUserStoriesForSpecificSprint()" class="form-control"  required="" >
+                            <option ng-repeat="items in availableSprint">{{items.name}}</option>                                     
+                        </select>
+                    <br>
+
+                    
+                        <label>Add UserStory*</label>
+                        <select ng-model="taskUserStories" class="form-control"  required="" >
+                            <option ng-repeat="items in availableUserStories"> {{items.name}} </option>                                       
+                        </select>
+                    
+                    
+                    <br>
+                    <div ng-init="fetchUsers()">  
+                                            <label>Assign To</label>
+                              
+                                    <input  list="browsers" name="browser" class="form-control" ng-model="taskUsers" >
+                                    <datalist  id="browsers" >
+                                      <option ng-repeat="datas in usersArray" value="{{datas.email}}">{{datas.name}}</option>
+                                    </datalist>
+                              
+                    </div>
+
+                    
+                    <br>
+
+                    <label>Start Date* </label><br>
+                    <input type ="date" id="startdate" ng-model="taskStartDate" class="form-control" required=""><br>
+
+                    <label>End Date* </label><br>
+                    <input type ="date" id="enddate" ng-model="taskEndDate" class="form-control" required="">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary"> Save </button>
+
+                </form>
+                <div flash-alert="success" active-class="in" class="alert fade">
+    <strong class="alert-heading">Error!</strong>
+    <span class="alert-message">{{flash.message}}</span>
+</div>
+                <!-- form end here -->                         
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<!-- userStory update -----------------------------------------------------   -->
+<div class="modal" id="myModalForUserStoryUpdate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><p><center><h4>Update UserStory</h4></center></p></h4>
+            </div>
+
+
+            <div class="modal-body">
+                <!-- form start here -->
+                <form ng-submit="updateUserStory()">
+
+                    <input type="hidden" ng-model="userStoryId">  
+                    <input type="text" ng-model="userStoryName" class="form-control" placeholder="UserStory Name*"  autofocus required=""><br>
+
+                    <textarea rows="8" cols="50" ng-model="userStoryDescription" class="form-control" placeholder="Description*" required="" >
+                    </textarea><br>
+
+                    <label>Release</label>
+                    <input type="text" ng-model="releaseName"readonly="true" class="form-control"><br> 
+                    <br>
+
+
+                    <label>Sprint (optional)</label>
+                    <select ng-model="selectedSprint" class="form-control"  required="" >
+                        <option ng-repeat="items in availableSprint" value="{{items.name}}">{{items.name}}</option>                                     
+                    </select>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary"> Update </button>
+
+                </form>
+                <!-- form end here -->                         
+            </div>
+
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<!-- Sprint Update  -----------------------------------------------------   -->
+<div class="modal" id="myModalForUpdateSprint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><p><center><h4>Update Sprint</h4></center></p></h4>
+            </div> 
+
+            <div class="modal-body">
+                <!-- form start here -->
+                <form ng-submit="updateSprint()">
+
+                    <input type="hidden" ng-model="sprintId">
+                    <label>Sprint Name* </label><br>
+                    <input type="text" ng-model="sprintName" class="form-control" placeholder="Sprint Name*"  autofocus required=""><br>
+
+                    <label>Description* </label><br>
+                    <input type="text" ng-model="sprintDescription" class="form-control" placeholder="Description*" required="" ><br>
+
+                    <label>Add UserStory* </label><br>
+                    <select size="4" required="" multiple ng-multiple="true" ng-model="selectedUserStorys" ng-options="data.name for data in UserStoryforSprint"></select><br>
+
+                    <br>
+                    <label>Start Date </label><br>
+                    <input type ="date" id="startdate" readonly="true" ng-model="sprintStartDate" class="form-control" required=""><br>
+
+                    <label>End Date* </label><br>
+                    <input type ="date" id="enddate" ng-model="sprintEndDate" class="form-control" required=""><br>
+
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" ng-model="cancel" data-dismiss="modal">Close</button>
+                        <button class="btn btn-sm btn-primary" type="submit">Update</button>
+                </form> 
+                <div flash-alert="success" active-class="in" class="alert fade">
+    <strong class="alert-heading">Error!</strong>
+    <span class="alert-message">{{flash.message}}</span>
+</div>
+            </div>
+
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

@@ -1,0 +1,258 @@
+<div style="margin-top:0.8%;margin-right: 0.9%" align="right">
+      <div><button data-toggle="modal" href="#myModalForCreateTask" class="css3button" class="btn btn-primary btn-lg">+ Create Task &nbsp; &nbsp;</button></div><br>     
+</div>
+<div>
+    <div class="col-md-1" style="margin-top:5.3%;margin-left:0%">
+
+    </div>
+    <div class="col-md-7" class="body-boder projectBox" style="margin-top:1.8%;margin-left:0%; background: #3B5998">
+        <form>
+            <h4 align="center"><font style="color: white" ><b>Project : </b>{{projectNAME}}</font> </h4>
+            <h4 align="center"><font style="color: white" ><b>Release : </b>{{releaseNAME}}</font> </h4>
+            <h4 align="center"><font style="color: white" ><b>TASKS for </b>{{sprintNAME}}</font> </h4>
+
+
+            <div align='center' class="body-boder projectBox" style="background: repeating-radial-gradient">   
+                <div ng-init ="fetchCreatedProject()"></div>
+                <div ng-init ="fetchCreatedTasks()"></div>
+                <div  class="col-md-12" style="margin-bottom: 20%;">
+
+
+
+                    <div ng-repeat="data in ArrayColor1" class="col-md-3">
+                        <br><br>
+
+                        <div class="divBox" style="background: #CCE5FF">
+
+
+                            <div align="left" style="color: black"><a data-toggle="modal" href="#myModalForUpdateTask" title="Update" ng-click="FetchDataForUpdateTask(data.id,data.name,data.desc,data.startDate,data.endDate,data.assignTo,data.userStory)"><span align="right" class="glyphicon glyphicon-edit blue"></span></a></div>
+                            <div class="content" style="color: black"><b><a href="">{{data.name}}</a></b></div>
+                            <div class="content" style="color: #0000FF">({{data.startDate}})</div> -
+                            <div class="content" style="color: #0000FF">({{data.endDate}})</div><br>
+                        </div>
+                    </div>  
+                    <div ng-repeat="data in ArrayColor2" class="col-md-3">
+                        <br><br>
+
+                        <div class="divBox" style="background: #FFFF99">
+
+                            <div align="left" style="color: black"><a data-toggle="modal" href="#myModalForUpdateTask" title="Update" ng-click="FetchDataForUpdateTask(data.id,data.name,data.desc,data.startDate,data.endDate,data.assignTo,data.userStory)"><span align="right" class="glyphicon glyphicon-edit blue"></span></a></div>
+                            <div class="content" style="color: black"><b><a href="">{{data.name}}</a></b></div>
+                            <div class="content" style="color: #0000FF">({{data.startDate}})</div> -
+                            <div class="content" style="color: #0000FF">({{data.endDate}})</div><br>
+
+                        </div>
+
+                    </div>   
+                    <div ng-repeat="data in ArrayColor3" class="col-md-3">
+                        <br><br>
+
+                        <div class="divBox" style="background: #CCFF99">
+
+                            <div align="left" style="color: black"><a data-toggle="modal" href="#myModalForUpdateTask" title="Update" ng-click="FetchDataForUpdateTask(data.id,data.name,data.desc,data.startDate,data.endDate,data.assignTo,data.userStory)"><span align="right" class="glyphicon glyphicon-edit blue"></span></a>  </div>
+                            <div class="content" style="color: black"><b><a href="">{{data.name}}</a></b></div>
+                            <div class="content" style="color: #0000FF">({{data.startDate}})</div> -
+                            <div class="content" style="color: #0000FF">({{data.endDate}})</div><br>
+
+                        </div>
+                        <br><br>
+                    </div> 
+
+                </div>
+            </div>
+
+        </form>  
+    </div>
+    <div class="col-md-1" style="margin-top:5.3%;margin-left:0%">
+
+    </div>
+    <div class="col-md-3" style="margin-top:5.3%;margin-left:0%">
+
+        
+        <div class="body-boder projectBox">
+            <br>
+            <h3 align="center"><font style="font-family: cursive;color: black;font-style: oblique" >My Projects</font></h3><br>
+
+            <div ng-repeat="data in ArrayProject1| startFrom:currentPage*pageSize | limitTo:pageSize"
+> 
+
+
+                &nbsp;<a href="#/releaseBoard/{{data.id}}/{{data.name}}"><b style="color: #F7819F">{{data.name}}</b></a> ( {{data.startDate}} &nbsp; - &nbsp;{{data.endDate}}) 
+
+            </div> 
+            <div ng-repeat="data in ArrayProject2| startFrom:currentPage*pageSize | limitTo:pageSize"
+>                                                                
+
+                &nbsp;<a href="#/releaseBoard/{{data.id}}/{{data.name}}"><b style="color: #6495ED">{{data.name}}</b></a> ( {{data.startDate}} &nbsp; - &nbsp;{{data.endDate}}) 
+
+
+            </div> 
+            <div ng-repeat="data in ArrayProject3| startFrom:currentPage*pageSize | limitTo:pageSize"
+>                                                                
+
+                &nbsp;<a href="#/releaseBoard/{{data.id}}/{{data.name}}"><b style="color: #C8FE2E">{{data.name}}</b></a> ( {{data.startDate}} &nbsp; - &nbsp;{{data.endDate}}) 
+
+            </div> 
+            <br>
+            <div align="middle">
+            <button ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">
+              <<
+               </button>
+            
+              &nbsp;
+            <button ng-disabled="currentPage >= length/pageSize - 1" ng-click="currentPage=currentPage+1">
+               >>
+         </button>
+            </div>
+
+            
+        </div>
+
+    </div>
+</div>
+
+
+<!-- task creation -----------------------------------------------------   -->
+<div class="modal" id="myModalForCreateTask" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><p><center><h4>Create Task</h4></center></p></h4>
+            </div>
+
+
+            <div class="modal-body">
+                <!-- form start here -->
+                <form ng-submit="saveTask()">
+
+                    <input type="text" ng-model="taskName" class="form-control" placeholder="Task Name*"  autofocus required=""><br>
+
+
+                    <textarea rows="3" cols="30" ng-model="taskDescription" class="form-control" placeholder="Description*" required="" >
+                    </textarea><br>
+                    <label>Status* </label><br>
+                    <select  ng-model="taskStatus" class="form-control"  required="">
+                        <option value="Todo">Todo</option>
+                    </select>
+
+                 
+                    <br>
+                    <div ng-init="fetchUserStorysForSpecificSprint()">  
+                        <label>Add UserStory*</label>
+                        <select ng-model="taskUserStorys" class="form-control"  required="" >
+                            <option ng-repeat="items in userStorysArrayForSprint"> {{items.name}} </option>                                       
+                        </select>
+                    </div>
+                    <br>
+
+                            <div ng-init="fetchUsers()">  
+                                            <label>Assign To</label>
+                              
+                                    <input  list="browsers" name="browser" class="form-control" ng-model="taskUsers" >
+                                    <datalist  id="browsers" >
+                                      <option ng-repeat="datas in usersArray" value="{{datas.email}}">{{datas.name}}</option>
+                                    </datalist>
+                              
+                            </div>
+
+                    <br>
+
+                    <label>Start Date* </label><br>
+                    <input type ="date" id="startdate" ng-model="taskStartDate" class="form-control" required=""><br>
+
+                    
+                    <label>End Date* </label><br>
+                    <input type ="date" id="enddate" ng-model="taskEndDate" class="form-control" required="">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary"> Save </button>
+
+                </form>
+                <div flash-alert="success" active-class="in" class="alert fade">
+    <strong class="alert-heading">Error!</strong>
+    <span class="alert-message">{{flash.message}}</span>
+</div>
+                <!-- form end here -->                         
+            </div>
+
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- Task Update -----------------------------------------------------   -->
+<div class="modal" id="myModalForUpdateTask" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><p><center><h4>Update Task</h4></center></p></h4>
+            </div>
+
+
+
+
+            <div class="modal-body">
+
+                <form ng-submit="updateTask()">
+
+                    <input type="hidden" ng-model="taskId">
+                    <label>Task Name* </label><br>
+                    <input type="text" ng-model="taskName" class="form-control" placeholder="Task Name*"  autofocus required=""><br>
+
+                    <label>Description* </label><br>
+                    <input type="text" ng-model="taskDescription" class="form-control" placeholder="Description*" required="" ><br>
+
+                   <br>
+
+                    <label>Prev UserStory</label><br>
+                    <input type="text" readonly="" ng-model="prevUserStory" class="form-control"><br>
+
+
+                    <label>Add UserStory (optional)</label>
+                    <select ng-model="taskUserStorys" class="form-control"  required="" >
+                        <div ng-repeat="data in userStorysArray">
+                            <option ng-repeat="items in userStorysArrayForSprint"> {{items.name}} </option>
+                   
+                    </select>
+                     <label>Prev Assigned To</label><br>
+                    <input type="text" readonly="" ng-model="prevAssign" class="form-control"><br>
+
+                    <div ng-init="fetchUsers()">  
+                        <label>Assign To (optional)</label>
+                        <select ng-model="taskUsers" class="form-control"  required="">
+
+                            <option ng-repeat="items in usersArray"  value="{{items.email}}">{{items.email}}</option>
+
+                        </select>
+                    </div>
+
+
+                    <label>Start Date </label><br>
+                    <input type ="date" id="startdate" readonly="true" ng-model="taskStartDate" class="form-control" required=""><br>
+
+                    <label>End Date* </label><br>
+                    <input type ="date" id="enddate" ng-model="taskEndDate" class="form-control" required=""><br>         
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" ng-model="cancel" data-dismiss="modal">Close</button>
+                        <button class="btn btn-sm btn-primary" type="submit">Update</button>
+                </form> 
+                <div flash-alert="success" active-class="in" class="alert fade">
+    <strong class="alert-heading">Error!</strong>
+    <span class="alert-message">{{flash.message}}</span>
+</div>
+            </div>
+
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

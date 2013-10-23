@@ -1,0 +1,674 @@
+2013-10-22 18:00:26,264 [http-bio-8080-exec-5] INFO  mainservice.UserStoryInfoService  - Entered in isHasProject method of UserStoryInfoService
+2013-10-22 18:00:26,270 [http-bio-8080-exec-4] INFO  mainservice.SprintInfoService  - Entered into isHasRelease method of SprintInfoService
+2013-10-22 18:00:26,275 [http-bio-8080-exec-5] INFO  mainservice.UserStoryInfoService  - Returning true from isHasProject method of UserStoryInfoService
+2013-10-22 18:00:26,276 [http-bio-8080-exec-9] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:26,277 [http-bio-8080-exec-5] INFO  mainservice.UserStoryInfoService  - Entered into getUserStoryForSpecificRelease method of UserStoryInfoService
+2013-10-22 18:00:26,281 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:26,282 [http-bio-8080-exec-4] INFO  mainservice.SprintInfoService  - Returning true from isHasRelease method of SprintInfoService
+2013-10-22 18:00:26,285 [http-bio-8080-exec-4] INFO  mainservice.SprintInfoService  - Entered into get method of SprintInfoService
+2013-10-22 18:00:26,285 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:26,302 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:26,302 [http-bio-8080-exec-4] INFO  mainservice.SprintInfoService  - Returning list of sprints from get method of SprintInfoService
+2013-10-22 18:00:26,305 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:26,307 [http-bio-8080-exec-1] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:00:26,315 [http-bio-8080-exec-1] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:00:27,323 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:27,326 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:27,328 [http-bio-8080-exec-1] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:27,328 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:27,332 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:27,333 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Enterd into isHasSprint method of TaskInfoService
+2013-10-22 18:00:27,338 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Returning true from isHasSprint method of TaskInfoService
+2013-10-22 18:00:27,338 [http-bio-8080-exec-1] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:27,340 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Enterd into get method of TaskInfoService
+2013-10-22 18:00:27,348 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Returning list of tasks from get method of TaskInfoService
+2013-10-22 18:00:27,350 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:27,351 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:27,354 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:27,357 [http-bio-8080-exec-4] INFO  mainservice.UserStoryInfoService  - Entered in isHasProject method of UserStoryInfoService
+2013-10-22 18:00:27,360 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:27,363 [http-bio-8080-exec-10] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:00:27,364 [http-bio-8080-exec-4] INFO  mainservice.UserStoryInfoService  - Returning true from isHasProject method of UserStoryInfoService
+2013-10-22 18:00:27,367 [http-bio-8080-exec-10] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:00:27,370 [http-bio-8080-exec-4] INFO  mainservice.UserStoryInfoService  - Entered into getUserStoryForSpecificSprint method of UserStoryInfoService
+2013-10-22 18:00:39,245 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:00:39,246 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:00:39,246 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:00:39,248 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:00:39,249 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:00:39,249 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:00:39,251 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:00:39,252 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:00:39,252 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:00:39,401 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:00:39,402 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:00:39,404 [http-bio-8080-exec-9] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:00:39,405 [http-bio-8080-exec-9] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:00:39,408 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:00:39,409 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:00:39,561 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:39,563 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:39,564 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:39,565 [http-bio-8080-exec-3] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:39,568 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:39,571 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into isHasSprint method of TaskInfoService
+2013-10-22 18:00:39,576 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Returning true from isHasSprint method of TaskInfoService
+2013-10-22 18:00:39,576 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:39,579 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:39,579 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into get method of TaskInfoService
+2013-10-22 18:00:39,583 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:39,583 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:39,586 [http-bio-8080-exec-8] INFO  mainservice.UserStoryInfoService  - Entered in isHasProject method of UserStoryInfoService
+2013-10-22 18:00:39,586 [http-bio-8080-exec-3] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:39,586 [http-bio-8080-exec-4] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:00:39,590 [http-bio-8080-exec-4] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:00:39,592 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Returning list of tasks from get method of TaskInfoService
+2013-10-22 18:00:39,592 [http-bio-8080-exec-8] INFO  mainservice.UserStoryInfoService  - Returning true from isHasProject method of UserStoryInfoService
+2013-10-22 18:00:39,604 [http-bio-8080-exec-8] INFO  mainservice.UserStoryInfoService  - Entered into getUserStoryForSpecificSprint method of UserStoryInfoService
+2013-10-22 18:00:41,235 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:41,238 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:41,240 [http-bio-8080-exec-3] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:41,240 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:41,243 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:41,245 [http-bio-8080-exec-4] INFO  mainservice.DashboardInfoService  - Entered into getAllAssignedTask method of DashboardInfoService
+2013-10-22 18:00:41,250 [http-bio-8080-exec-3] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:41,251 [http-bio-8080-exec-4] INFO  mainservice.DashboardInfoService  - Returning list of tasks from getAllAssignedTask method of DashboardInfoService
+2013-10-22 18:00:45,655 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,659 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,661 [http-bio-8080-exec-4] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:45,662 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,661 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,665 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,666 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,669 [http-bio-8080-exec-3] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:00:45,672 [http-bio-8080-exec-4] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:00:45,678 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,681 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,682 [http-bio-8080-exec-3] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:00:45,685 [http-bio-8080-exec-3] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:00:45,692 [http-bio-8080-exec-3] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:00:45,702 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,706 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,707 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,711 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:00:45,713 [http-bio-8080-exec-2] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:00:45,723 [http-bio-8080-exec-2] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:01:00,343 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:01:00,348 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:01:00,351 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:01:00,359 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:27,061 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:27,062 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:27,062 [http-bio-8080-exec-3] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:05:27,071 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:27,071 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:27,072 [http-bio-8080-exec-3] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:05:27,080 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:27,080 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:27,080 [http-bio-8080-exec-3] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:05:27,351 [http-bio-8080-exec-9] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:27,351 [http-bio-8080-exec-11] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:27,352 [http-bio-8080-exec-9] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:27,352 [http-bio-8080-exec-11] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:27,357 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:27,358 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:27,662 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,662 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,665 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,666 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,667 [http-bio-8080-exec-8] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:27,668 [http-bio-8080-exec-11] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:05:27,671 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,673 [http-bio-8080-exec-11] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:05:27,676 [http-bio-8080-exec-11] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:05:27,676 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,682 [http-bio-8080-exec-8] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:27,683 [http-bio-8080-exec-11] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:05:27,710 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,712 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,738 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,740 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,751 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,754 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:27,755 [http-bio-8080-exec-1] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:05:27,757 [http-bio-8080-exec-1] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:05:28,334 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:28,335 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:28,335 [http-bio-8080-exec-1] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:05:28,337 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:28,338 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:28,338 [http-bio-8080-exec-1] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:05:28,340 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:28,341 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:28,341 [http-bio-8080-exec-1] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:05:28,446 [http-bio-8080-exec-11] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:28,447 [http-bio-8080-exec-11] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:28,455 [http-bio-8080-exec-7] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:28,456 [http-bio-8080-exec-7] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:28,457 [http-bio-8080-exec-5] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:28,458 [http-bio-8080-exec-5] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:28,624 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,625 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,626 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,628 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,630 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,629 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,633 [http-bio-8080-exec-3] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:28,633 [http-bio-8080-exec-7] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:05:28,637 [http-bio-8080-exec-7] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:05:28,640 [http-bio-8080-exec-7] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:05:28,644 [http-bio-8080-exec-3] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:28,647 [http-bio-8080-exec-7] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:05:28,656 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,662 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,668 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,671 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,694 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,697 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:28,698 [http-bio-8080-exec-10] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:05:28,700 [http-bio-8080-exec-10] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:05:29,064 [http-bio-8080-exec-10] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:29,065 [http-bio-8080-exec-10] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:29,065 [http-bio-8080-exec-10] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:05:29,067 [http-bio-8080-exec-10] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:29,068 [http-bio-8080-exec-10] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:29,068 [http-bio-8080-exec-10] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:05:29,070 [http-bio-8080-exec-10] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:29,071 [http-bio-8080-exec-10] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:29,071 [http-bio-8080-exec-10] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:05:29,195 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:29,196 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:29,200 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:29,200 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:29,202 [http-bio-8080-exec-9] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:29,202 [http-bio-8080-exec-9] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:29,394 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,397 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,397 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,400 [http-bio-8080-exec-2] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:29,401 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,401 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,405 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,408 [http-bio-8080-exec-9] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:05:29,411 [http-bio-8080-exec-2] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:29,423 [http-bio-8080-exec-9] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:05:29,425 [http-bio-8080-exec-9] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:05:29,433 [http-bio-8080-exec-9] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:05:29,452 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,458 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,467 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,471 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,486 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,491 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:29,495 [http-bio-8080-exec-3] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:05:29,503 [http-bio-8080-exec-3] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:05:34,148 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:34,149 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:34,150 [http-bio-8080-exec-3] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:05:34,154 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:34,155 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:34,155 [http-bio-8080-exec-3] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:05:34,158 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:34,159 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:34,160 [http-bio-8080-exec-3] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:05:34,298 [http-bio-8080-exec-11] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:34,299 [http-bio-8080-exec-11] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:34,310 [http-bio-8080-exec-5] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:34,311 [http-bio-8080-exec-5] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:34,313 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:34,314 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:34,537 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,540 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,541 [http-bio-8080-exec-9] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:34,543 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,547 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,549 [http-bio-8080-exec-5] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:05:34,551 [http-bio-8080-exec-9] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:34,554 [http-bio-8080-exec-5] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:05:34,557 [http-bio-8080-exec-5] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:05:34,557 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,561 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,564 [http-bio-8080-exec-5] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:05:34,594 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,600 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,608 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,613 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,641 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,644 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:34,646 [http-bio-8080-exec-11] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:05:34,649 [http-bio-8080-exec-11] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:05:34,820 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:34,820 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:34,821 [http-bio-8080-exec-8] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:05:34,825 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:34,826 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:34,827 [http-bio-8080-exec-8] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:05:34,830 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:34,831 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:34,831 [http-bio-8080-exec-8] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:05:34,961 [http-bio-8080-exec-7] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:05:34,962 [http-bio-8080-exec-7] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:05:34,964 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:05:34,964 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:05:34,988 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:05:34,988 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:05:35,191 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,195 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,196 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,198 [http-bio-8080-exec-3] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:35,199 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,198 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,202 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,209 [http-bio-8080-exec-3] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:05:35,203 [http-bio-8080-exec-1] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:05:35,220 [http-bio-8080-exec-1] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:05:35,223 [http-bio-8080-exec-1] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:05:35,229 [http-bio-8080-exec-1] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:05:35,230 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,239 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,247 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,251 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,265 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,271 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:35,272 [http-bio-8080-exec-3] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:05:35,275 [http-bio-8080-exec-3] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:05:53,115 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:53,119 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:53,121 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:53,128 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:54,401 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:54,407 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:54,409 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:54,416 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:55,112 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,116 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,118 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:55,125 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:55,421 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,424 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,426 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:55,431 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:55,578 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,581 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,583 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:55,591 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:55,739 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,742 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,744 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:55,751 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:55,909 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,912 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:55,915 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:55,923 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:56,067 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:56,070 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:56,072 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:56,079 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:05:56,179 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:56,182 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:05:56,185 [http-bio-8080-exec-9] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:05:56,193 [http-bio-8080-exec-9] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:06:50,947 [Thread-9] INFO  compiler.GrailsProjectWatcher  - File [/home/neev/NetBeansProjects/iceScrum/web-app/gspPages/releaseBoard.html] changed. Applying changes to application.
+2013-10-22 18:06:50,952 [Thread-9] INFO  ResourcesGrailsPlugin  - Scheduling reload of resource files due to change of file /home/neev/NetBeansProjects/iceScrum/web-app/gspPages/releaseBoard.html
+2013-10-22 18:06:51,453 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Performing a changed file reload
+2013-10-22 18:06:51,453 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Loading declared resources...
+2013-10-22 18:06:51,463 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Finished changed file reload
+2013-10-22 18:07:05,968 [Thread-9] INFO  compiler.GrailsProjectWatcher  - File [/home/neev/NetBeansProjects/iceScrum/web-app/gspPages/releaseBoard.html] changed. Applying changes to application.
+2013-10-22 18:07:05,974 [Thread-9] INFO  ResourcesGrailsPlugin  - Scheduling reload of resource files due to change of file /home/neev/NetBeansProjects/iceScrum/web-app/gspPages/releaseBoard.html
+2013-10-22 18:07:06,474 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Performing a changed file reload
+2013-10-22 18:07:06,475 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Loading declared resources...
+2013-10-22 18:07:06,493 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Finished changed file reload
+2013-10-22 18:07:20,838 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:07:20,839 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:07:20,839 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:07:20,842 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:07:20,842 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:07:20,843 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:07:20,845 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:07:20,846 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:07:20,846 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:07:21,024 [http-bio-8080-exec-11] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:07:21,025 [http-bio-8080-exec-11] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:07:21,030 [http-bio-8080-exec-3] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:07:21,030 [http-bio-8080-exec-3] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:07:21,034 [http-bio-8080-exec-7] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:07:21,034 [http-bio-8080-exec-7] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:07:21,350 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,354 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,355 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,356 [http-bio-8080-exec-7] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:07:21,360 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,363 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,367 [http-bio-8080-exec-7] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:07:21,367 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,373 [http-bio-8080-exec-3] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:07:21,378 [http-bio-8080-exec-3] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:07:21,392 [http-bio-8080-exec-3] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:07:21,398 [http-bio-8080-exec-3] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:07:21,405 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,407 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,422 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,425 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,444 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,446 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:21,447 [http-bio-8080-exec-7] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:07:21,450 [http-bio-8080-exec-7] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:07:38,558 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:38,561 [http-bio-8080-exec-7] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:38,564 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:07:38,570 [http-bio-8080-exec-7] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:07:45,974 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:45,978 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:47,397 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:47,400 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:47,403 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:07:47,410 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:07:51,717 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:51,720 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:51,722 [http-bio-8080-exec-3] INFO  mainservice.UserStoryInfoService  - Entered into fetchUserStoriesForSpecificSprint method of UserStoryInfoService
+2013-10-22 18:07:53,365 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:53,368 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:07:53,370 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:07:53,379 [http-bio-8080-exec-3] INFO  mainservice.TaskInfoService  - REturning notMatch from add method of TaskInfoService
+2013-10-22 18:10:15,103 [Thread-9] INFO  compiler.GrailsProjectWatcher  - File [/home/neev/NetBeansProjects/iceScrum/grails-app/controllers/com/neev/controller/TaskController.groovy] changed. Applying changes to application.
+2013-10-22 18:10:54,363 [Thread-9] INFO  compiler.GrailsProjectWatcher  - File [/home/neev/NetBeansProjects/iceScrum/grails-app/services/com/neev/mainservice/TaskInfoService.groovy] changed. Applying changes to application.
+2013-10-22 18:11:03,605 [Thread-9] INFO  compiler.GrailsProjectWatcher  - File [/home/neev/NetBeansProjects/iceScrum/grails-app/services/com/neev/mainservice/TaskInfoService.groovy] changed. Applying changes to application.
+2013-10-22 18:12:10,798 [http-bio-8080-exec-7] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:12:10,799 [http-bio-8080-exec-7] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:12:10,799 [http-bio-8080-exec-7] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:12:10,808 [http-bio-8080-exec-7] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:12:10,808 [http-bio-8080-exec-7] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:12:10,809 [http-bio-8080-exec-7] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:12:10,817 [http-bio-8080-exec-7] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:12:10,818 [http-bio-8080-exec-7] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:12:10,818 [http-bio-8080-exec-7] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:12:11,104 [http-bio-8080-exec-5] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:12:11,105 [http-bio-8080-exec-5] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:12:11,113 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:12:11,113 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:12:11,119 [http-bio-8080-exec-9] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:12:11,120 [http-bio-8080-exec-9] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:12:11,431 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,440 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,447 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,448 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,452 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,454 [http-bio-8080-exec-9] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:12:11,457 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,459 [http-bio-8080-exec-10] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:12:11,483 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,488 [http-bio-8080-exec-9] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:12:11,492 [http-bio-8080-exec-10] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:12:11,495 [http-bio-8080-exec-10] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:12:11,498 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,514 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,520 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,545 [http-bio-8080-exec-10] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:12:11,566 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,569 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:12:11,570 [http-bio-8080-exec-5] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:12:11,572 [http-bio-8080-exec-5] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:13:28,798 [http-bio-8080-exec-11] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:13:28,798 [http-bio-8080-exec-11] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:13:28,799 [http-bio-8080-exec-11] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:13:28,807 [http-bio-8080-exec-11] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:13:28,807 [http-bio-8080-exec-11] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:13:28,807 [http-bio-8080-exec-11] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:13:28,816 [http-bio-8080-exec-11] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:13:28,816 [http-bio-8080-exec-11] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:13:28,816 [http-bio-8080-exec-11] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:13:29,087 [http-bio-8080-exec-2] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:13:29,088 [http-bio-8080-exec-2] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:13:29,093 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:13:29,094 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:13:29,095 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:13:29,095 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:13:29,403 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,405 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,406 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,407 [http-bio-8080-exec-1] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:13:29,408 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,410 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:13:29,411 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,414 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:13:29,416 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,416 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:13:29,437 [http-bio-8080-exec-1] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:13:29,441 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:13:29,458 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,461 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,468 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,471 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,481 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,486 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:29,488 [http-bio-8080-exec-5] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:13:29,490 [http-bio-8080-exec-5] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:13:48,206 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:48,214 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:13:48,224 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:13:48,231 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:14:00,418 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:14:00,422 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:14:00,424 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:14:00,431 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:15:09,967 [Thread-9] INFO  compiler.GrailsProjectWatcher  - File [/home/neev/NetBeansProjects/iceScrum/web-app/gspPages/sprintBoard.html] changed. Applying changes to application.
+2013-10-22 18:15:09,973 [Thread-9] INFO  ResourcesGrailsPlugin  - Scheduling reload of resource files due to change of file /home/neev/NetBeansProjects/iceScrum/web-app/gspPages/sprintBoard.html
+2013-10-22 18:15:10,473 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Performing a changed file reload
+2013-10-22 18:15:10,474 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Loading declared resources...
+2013-10-22 18:15:10,482 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Finished changed file reload
+2013-10-22 18:15:15,983 [Thread-9] INFO  compiler.GrailsProjectWatcher  - File [/home/neev/NetBeansProjects/iceScrum/web-app/gspPages/sprintBoard.html] changed. Applying changes to application.
+2013-10-22 18:15:15,989 [Thread-9] INFO  ResourcesGrailsPlugin  - Scheduling reload of resource files due to change of file /home/neev/NetBeansProjects/iceScrum/web-app/gspPages/sprintBoard.html
+2013-10-22 18:15:16,490 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Performing a changed file reload
+2013-10-22 18:15:16,490 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Loading declared resources...
+2013-10-22 18:15:16,500 [pool-1-thread-1] INFO  resource.ResourceProcessor  - Finished changed file reload
+2013-10-22 18:15:35,445 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:15:35,445 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:15:35,446 [http-bio-8080-exec-1] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:15:35,448 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:15:35,448 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:15:35,449 [http-bio-8080-exec-1] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:15:35,451 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:15:35,451 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:15:35,452 [http-bio-8080-exec-1] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:15:35,630 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:15:35,631 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:15:35,641 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:15:35,642 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:15:35,645 [http-bio-8080-exec-11] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:15:35,645 [http-bio-8080-exec-11] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:15:35,965 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:35,968 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:35,969 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:35,970 [http-bio-8080-exec-11] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:35,972 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:35,973 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:35,975 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:15:35,977 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:35,979 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:15:35,982 [http-bio-8080-exec-11] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:35,982 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:15:35,990 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:15:36,016 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:36,018 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:36,020 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:36,028 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:36,029 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:36,031 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:36,033 [http-bio-8080-exec-9] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:15:36,037 [http-bio-8080-exec-9] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:15:38,023 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:38,027 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:38,036 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:38,036 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:38,039 [http-bio-8080-exec-9] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:38,039 [http-bio-8080-exec-4] INFO  mainservice.DashboardInfoService  - Entered into getAllAssignedTask method of DashboardInfoService
+2013-10-22 18:15:38,048 [http-bio-8080-exec-4] INFO  mainservice.DashboardInfoService  - Returning list of tasks from getAllAssignedTask method of DashboardInfoService
+2013-10-22 18:15:38,050 [http-bio-8080-exec-9] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:39,148 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:15:39,149 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:15:39,149 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/jquery-2.0.3.js
+2013-10-22 18:15:39,151 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:15:39,152 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:15:39,152 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/datepicker.js
+2013-10-22 18:15:39,154 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:15:39,154 [http-bio-8080-exec-4] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:15:39,155 [http-bio-8080-exec-4] WARN  resource.ResourceTagLib  - Invocation of <r:resource> for a resource that apparently doesn't exist: /iceScrum/js/bootstrap-datepicker.js
+2013-10-22 18:15:39,278 [http-bio-8080-exec-2] ERROR resource.ResourceMeta  - Resource not found: /js/bootstrap-datepicker.js
+2013-10-22 18:15:39,279 [http-bio-8080-exec-2] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/bootstrap-datepicker.js]
+2013-10-22 18:15:39,284 [http-bio-8080-exec-1] ERROR resource.ResourceMeta  - Resource not found: /js/datepicker.js
+2013-10-22 18:15:39,285 [http-bio-8080-exec-1] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/datepicker.js]
+2013-10-22 18:15:39,287 [http-bio-8080-exec-8] ERROR resource.ResourceMeta  - Resource not found: /js/jquery-2.0.3.js
+2013-10-22 18:15:39,287 [http-bio-8080-exec-8] WARN  util.ResourceMetaStore  - Cannot locate resource [/js/jquery-2.0.3.js]
+2013-10-22 18:15:39,425 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:39,426 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:39,428 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:39,429 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:39,430 [http-bio-8080-exec-8] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:39,431 [http-bio-8080-exec-10] INFO  mainservice.DashboardInfoService  - Entered into getAllAssignedTask method of DashboardInfoService
+2013-10-22 18:15:39,440 [http-bio-8080-exec-10] INFO  mainservice.DashboardInfoService  - Returning list of tasks from getAllAssignedTask method of DashboardInfoService
+2013-10-22 18:15:39,443 [http-bio-8080-exec-8] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:41,427 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,430 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,430 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,432 [http-bio-8080-exec-1] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:41,432 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,433 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,435 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:15:41,436 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,440 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:15:41,441 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:15:41,446 [http-bio-8080-exec-8] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:15:41,451 [http-bio-8080-exec-1] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:41,456 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,461 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,465 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,470 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,475 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,478 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:41,481 [http-bio-8080-exec-1] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:15:41,485 [http-bio-8080-exec-1] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:15:46,714 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,716 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,717 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,721 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,725 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,721 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,727 [http-bio-8080-exec-2] INFO  mainservice.ReleaseInfoService  - Enterd into isHasProject method of ReleaseInfoService
+2013-10-22 18:15:46,729 [http-bio-8080-exec-4] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,728 [http-bio-8080-exec-8] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:46,734 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,735 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,743 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,745 [http-bio-8080-exec-3] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,735 [http-bio-8080-exec-2] INFO  mainservice.ReleaseInfoService  - Returning true from isHasProject method of ReleaseInfoService
+2013-10-22 18:15:46,752 [http-bio-8080-exec-2] INFO  mainservice.ReleaseInfoService  - Enterd into get method of ReleaseInfoService
+2013-10-22 18:15:46,747 [http-bio-8080-exec-8] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:15:46,783 [http-bio-8080-exec-2] INFO  mainservice.ReleaseInfoService  - Returning list of releases from get method of ReleaseInfoService
+2013-10-22 18:15:46,795 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:46,798 [http-bio-8080-exec-5] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:15:46,802 [http-bio-8080-exec-5] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:15:57,365 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:57,367 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:15:57,369 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:15:57,375 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:16:15,169 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:15,175 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:15,177 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:15,183 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:16:16,468 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:16,471 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:16,474 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:16,481 [http-bio-8080-exec-5] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:16:16,643 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:16,647 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:16,650 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:16,657 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:16:16,815 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:16,818 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:16,819 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:16,825 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:16:16,970 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:16,974 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:16,976 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:16,985 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:16:17,128 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:17,132 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:17,135 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:17,141 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:16:17,306 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:17,309 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:17,310 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:17,316 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Exception in add method of TaskInfoService
+2013-10-22 18:16:32,430 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,432 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,433 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,435 [http-bio-8080-exec-10] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:16:32,435 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,438 [http-bio-8080-exec-8] INFO  mainservice.SprintInfoService  - Entered into isHasRelease method of SprintInfoService
+2013-10-22 18:16:32,439 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,442 [http-bio-8080-exec-8] INFO  mainservice.SprintInfoService  - Returning true from isHasRelease method of SprintInfoService
+2013-10-22 18:16:32,443 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,444 [http-bio-8080-exec-8] INFO  mainservice.SprintInfoService  - Entered into get method of SprintInfoService
+2013-10-22 18:16:32,446 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Entered in isHasProject method of UserStoryInfoService
+2013-10-22 18:16:32,447 [http-bio-8080-exec-10] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:16:32,451 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Returning true from isHasProject method of UserStoryInfoService
+2013-10-22 18:16:32,453 [http-bio-8080-exec-8] INFO  mainservice.SprintInfoService  - Returning list of sprints from get method of SprintInfoService
+2013-10-22 18:16:32,453 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Entered into getUserStoryForSpecificRelease method of UserStoryInfoService
+2013-10-22 18:16:32,460 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,467 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,471 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,474 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:32,477 [http-bio-8080-exec-10] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:16:32,482 [http-bio-8080-exec-10] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:16:35,622 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:35,626 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:35,628 [http-bio-8080-exec-10] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:16:35,628 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:35,632 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:35,638 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:35,641 [http-bio-8080-exec-10] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:16:35,642 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:35,644 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Entered in isHasProject method of UserStoryInfoService
+2013-10-22 18:16:35,644 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:35,649 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:35,651 [http-bio-8080-exec-8] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:16:35,658 [http-bio-8080-exec-8] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:16:35,658 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Enterd into isHasSprint method of TaskInfoService
+2013-10-22 18:16:35,659 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Returning true from isHasProject method of UserStoryInfoService
+2013-10-22 18:16:35,662 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Entered into getUserStoryForSpecificSprint method of UserStoryInfoService
+2013-10-22 18:16:35,667 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Returning true from isHasSprint method of TaskInfoService
+2013-10-22 18:16:35,688 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Enterd into get method of TaskInfoService
+2013-10-22 18:16:35,696 [http-bio-8080-exec-2] INFO  mainservice.TaskInfoService  - Returning list of tasks from get method of TaskInfoService
+2013-10-22 18:16:37,231 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,231 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,233 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,234 [http-bio-8080-exec-5] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,236 [http-bio-8080-exec-5] INFO  mainservice.SprintInfoService  - Entered into isHasRelease method of SprintInfoService
+2013-10-22 18:16:37,237 [http-bio-8080-exec-1] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,240 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Entered in isHasProject method of UserStoryInfoService
+2013-10-22 18:16:37,241 [http-bio-8080-exec-5] INFO  mainservice.SprintInfoService  - Returning true from isHasRelease method of SprintInfoService
+2013-10-22 18:16:37,243 [http-bio-8080-exec-5] INFO  mainservice.SprintInfoService  - Entered into get method of SprintInfoService
+2013-10-22 18:16:37,244 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,244 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Returning true from isHasProject method of UserStoryInfoService
+2013-10-22 18:16:37,247 [http-bio-8080-exec-2] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,247 [http-bio-8080-exec-9] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,249 [http-bio-8080-exec-5] INFO  mainservice.SprintInfoService  - Returning list of sprints from get method of SprintInfoService
+2013-10-22 18:16:37,248 [http-bio-8080-exec-1] INFO  mainservice.UserStoryInfoService  - Entered into getUserStoryForSpecificRelease method of UserStoryInfoService
+2013-10-22 18:16:37,255 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,260 [http-bio-8080-exec-11] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:37,249 [http-bio-8080-exec-2] INFO  mainservice.DashboardInfoService  - Entered into getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:16:37,265 [http-bio-8080-exec-11] INFO  userservice.GetUserService  - Entered into getAllUsers method of GetUserService
+2013-10-22 18:16:37,270 [http-bio-8080-exec-11] INFO  userservice.GetUserService  - Returning list of user from getAllUsers method of GetUserService
+2013-10-22 18:16:37,275 [http-bio-8080-exec-2] INFO  mainservice.DashboardInfoService  - Returning list of projects getAllCreatedProject method of DashboardInfoService
+2013-10-22 18:16:44,677 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:44,680 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:44,682 [http-bio-8080-exec-10] INFO  mainservice.UserStoryInfoService  - Entered into fetchUserStoriesForSpecificSprint method of UserStoryInfoService
+2013-10-22 18:16:51,589 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:51,593 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:51,595 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:51,603 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - REturning notMatch from add method of TaskInfoService
+2013-10-22 18:16:59,851 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:59,854 [http-bio-8080-exec-10] INFO  userservice.CommonUserValidationService  - Returning true from verifySessionToken method of CommonUserValidationService
+2013-10-22 18:16:59,855 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - Enterd into add method of TaskInfoService
+2013-10-22 18:16:59,865 [http-bio-8080-exec-10] INFO  mainservice.TaskInfoService  - REturning notMatch from add method of TaskInfoService
+2013-10-22 18:17:05,328 [http-bio-8080-exec-8] INFO  userservice.CommonUserValidationService  - Entered into verifySessionToken method of CommonUserValidationService
